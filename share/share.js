@@ -15,15 +15,15 @@ $(function() {
 
 
             if ((screen.width < 480) || (screen.height < 480)) {
-                window.open ('http://www.facebook.com/share.php?u=http://bit.ly/thepackageguardsite', '', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+                window.open ('http://www.facebook.com/share.php?u=https://www.kickstarter.com/projects/packageguard/the-package-guard', '', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
             } else {
-                window.open ('http://www.facebook.com/share.php?u=http://bit.ly/thepackageguardsite', '', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+                window.open ('http://www.facebook.com/share.php?u=https://www.kickstarter.com/projects/packageguard/the-package-guard', '', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
             }
     });
 
     $('.twitter').on('click', function() {
-        var loc = encodeURIComponent('http://bit.ly/thepackageguardsite'),
-                title = "Help put Porch Pirates out of business — ",
+        var loc = encodeURIComponent('http://kck.st/1R3w5y0'),
+                title = "Help put Porch Pirates out of business with @PackageGuard",
                 w = 580, h = 300,
                 left = (screen.width/2)-(w/2),
                 top = (screen.height/2)-(h/2);
@@ -32,7 +32,7 @@ $(function() {
     });
 
     $('.play').on('click', function() {
-        window.location.href = "http://bit.ly/thepackageguardsite";
+        window.location.href = "https://www.kickstarter.com/projects/packageguard/the-package-guard";
     });
 
 });
