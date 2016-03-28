@@ -23,7 +23,7 @@ $(function() {
 
     $('.twitter').on('click', function() {
         var loc = encodeURIComponent('http://kck.st/1R3w5y0'),
-                title = "I am helping stop people from stealing packages from my doorstep with @packageguard you should too http://kck.st/1R3w5y0",
+                title = "I am helping stop people from stealing packages from my doorstep with @packageguard you should too",
                 w = 580, h = 300,
                 left = (screen.width/2)-(w/2),
                 top = (screen.height/2)-(h/2);
